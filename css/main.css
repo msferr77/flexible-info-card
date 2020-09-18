@@ -13,6 +13,7 @@ html {
   text-size-adjust: 100%;
 
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -21,4 +22,21 @@ html {
 
 body {
   margin: 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+}
+
+ul img {
+  width: 5rem;
 }
